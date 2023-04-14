@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(213, 28, 176);
+    background-color: rgb(219, 190, 136);
+}
+li {
+  color: rgb(18, 97, 143);  
+  font-size: 13px;
+  font-style:italic;
+  font-weight: normal;
+}
+
+a {
+    color: rgb(19, 99, 21);
+    text-decoration: none;
+}
+/* a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+} */
+
+a:visited {
+    color: black;
+}
+.resumelistheading {
+    font-weight: bolder;
+    font-style: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.justify{text-align: justify;}
+
+.homebg {
+    background-image: url('../images/otherdonut.webp');
+    background-position-x: 70px;
+    
+    /* background-repeat: ; */
+}
+
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    /* border: 1px solid red; can combine all these attributes together which is nice */
+}
+
+.box2 {
+    /* padding- the space between border and content  */
+    padding: 8px;
+}
+
+.box3 {
+    margin: 50px;
+}
+
+.lorafont {
+    font-family: 'Lora', serif;
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    /* background-color: #666666; */
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555 ;
+}
+
+/* 114 is the right amount because the header is 5px from the top, the top is 2px, the header is 100px deep, the bottom border is 2px, then add a 5px gap before the leftmenu starts- add these all up*/
+.leftmenu{
+   top: 114px; 
+   left: 5px;
+   width: 100px;
+   bottom: 39px;
+   z-index: 1;
+   padding-top: 50px;
+   border-right: solid 1px #555555 ;
+}
+
+.mainbody{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-left: solid 1px #555555 ;
+    padding-left: 5px;
+}
+
+/* 25 is the right amount because we want it 5px up from the bottom and 5px away from left main and right, and we have a 2, 2 pixel border. 39-14 is 25. */
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+
+}
+
+.subheader{
+    float: right;
+}
